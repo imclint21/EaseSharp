@@ -3,13 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageLicenseExpression>https://github.com/clintnetwork/ClintSharp/blob/master/LICENSE.md</PackageLicenseExpression>
     <Description>Provide an abstraction layer to C# to simplify some stuffs and extends some objects.</Description>
     <Authors>Clint.Network</Authors>
     <Company />
     <PackageProjectUrl>https://github.com/clintnetwork/ClintSharp</PackageProjectUrl>
     <RepositoryUrl>https://github.com/clintnetwork/ClintSharp.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <Version>1.0.0.9</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -17,6 +18,6 @@
     <PackageReference Include="RestSharp" Version="106.6.9" />
   </ItemGroup>
 
-  <ProjectExtensions><VisualStudio><UserProperties BuildVersion_StartDate="2000/1/1" /></VisualStudio></ProjectExtensions>
+  <ProjectExtensions><VisualStudio><UserProperties BuildVersion_BuildVersioningStyle="None.None.None.Increment" BuildVersion_StartDate="2000/1/1" /></VisualStudio></ProjectExtensions>
 
 </Project>
