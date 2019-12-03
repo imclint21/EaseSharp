@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace ClintSharp.Json
+namespace ClintSharp
 {
     public static class JsonExtension
     {

@@ -6,6 +6,8 @@ namespace ClintSharp
     {
         public static bool IsNull(this string value) => string.IsNullOrEmpty(value);
 
+        public static bool IsNotNull(this string value) => !string.IsNullOrEmpty(value);
+
         /// <summary>
         /// Display fallback text for an empty or null string 
         /// </summary>
