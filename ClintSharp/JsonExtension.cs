@@ -9,5 +9,7 @@ namespace ClintSharp
         public static string ToJsonF(this object obj) => JsonConvert.SerializeObject(obj, Formatting.Indented);
 
         public static dynamic FromJson(this string value) => JsonConvert.DeserializeObject(value);
+        
+        public static dynamic FromJson<T>(this string value) => JsonConvert.DeserializeObject<T>(value);
     }
 }

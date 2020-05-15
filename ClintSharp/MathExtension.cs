@@ -7,7 +7,7 @@ namespace ClintSharp
         /// <summary>
         /// Get the average of a int array
         /// </summary>
-        public static float Average(int[] numbers)
+        public static double Average(int[] numbers)
         {
             if (numbers.Length == 0)
             {

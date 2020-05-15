@@ -11,6 +11,10 @@
     <RepositoryUrl>https://github.com/clintnetwork/ClintSharp.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <Version>1.0.0.9</Version>
+    <PackageVersion>1.1.0</PackageVersion>
+    <Title>ClintSharp</Title>
+    <PackageLicenseUrl>https://github.com/clintnetwork/ClintSharp/blob/master/LICENSE.md</PackageLicenseUrl>
+    <PackageIconUrl>https://avatars3.githubusercontent.com/u/5221349?s=460&amp;u=691bbc13faf0bd3f064e6d210fe77b046ff8f63b</PackageIconUrl>
   </PropertyGroup>
 
   <ItemGroup>
